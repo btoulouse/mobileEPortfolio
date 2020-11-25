@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.portfolio.AboutUs">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="394dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/this_app_is_designed_to_allow_users_to_create_a_customized_eportfolio_where_you_can_create_edit_and_view_content_of_your_choice_contact_us_brian_toulouse_snhu_edu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
